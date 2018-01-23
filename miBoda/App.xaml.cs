@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace miBoda
 {
@@ -10,6 +11,11 @@ namespace miBoda
 
             MainPage = new miBodaPage();
         }
+
+        //private void InitializeComponent()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         protected override void OnStart()
         {

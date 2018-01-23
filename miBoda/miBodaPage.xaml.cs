@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using System;
+using Xamarin.Forms;
 
 namespace miBoda
 {
@@ -8,5 +9,10 @@ namespace miBoda
         {
             InitializeComponent();
         }
+
+        //private void InitializeComponent()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
