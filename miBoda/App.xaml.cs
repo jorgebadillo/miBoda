@@ -1,21 +1,21 @@
-﻿using System;
-using Xamarin.Forms;
+﻿
+
 
 namespace miBoda
 {
+    using Xamarin.Forms;
+    using miBoda.Views;
     public partial class App : Application
     {
+
         public App()
         {
             InitializeComponent();
 
-            MainPage = new miBodaPage();
+            MainPage = new MainView();
         }
 
-        //private void InitializeComponent()
-        //{
-        //    throw new NotImplementedException();
-        //}
+
 
         protected override void OnStart()
         {
