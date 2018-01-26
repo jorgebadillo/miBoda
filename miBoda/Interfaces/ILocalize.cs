@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace miBoda.Interfaces
+﻿namespace miBoda.Interfaces
 {
     using System.Globalization;
 

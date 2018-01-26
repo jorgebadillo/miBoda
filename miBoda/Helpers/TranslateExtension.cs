@@ -1,6 +1,6 @@
 ﻿
 
-namespace miBoda.Services
+namespace miBoda.Helpers
 {
     using System;
     using System.Globalization;
@@ -14,7 +14,7 @@ namespace miBoda.Services
     public class TranslateExtension : IMarkupExtension
     {
         readonly CultureInfo ci;
-        const string ResourceId = "ForeignExchange2.Resources.Resource";
+        const string ResourceId = "miBoda.Resources.Resource";
 
         static readonly Lazy<ResourceManager> ResMgr =
             new Lazy<ResourceManager>(() => new ResourceManager(
